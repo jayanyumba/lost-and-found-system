@@ -11,6 +11,7 @@
     <div class="container">
         <a href="add_item.php">➕ Report Item</a> | 
         <a href="search.php">🔍 Search Items</a>
+        
         <hr>
 
         <h2>Latest Posts</h2>

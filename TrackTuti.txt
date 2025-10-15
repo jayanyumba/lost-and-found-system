@@ -1,0 +1,38 @@
+A lost and found system, used by students and staff, to post and or claim any lost and found items.
+
+Users:
+students, Admin, Staff
+
+Interfaces:
+Students - Can post lost items, can claim found items. 
+Staff - Can post lost items, can claim found items. 
+Admin - Deletes found items, posts lost items. manages the DB. 
+
+*using php, java script, HTML, CSS & Laravel.
+http://localhost/phpmyadmin/index.php?route=/database/structure&db=lostfound_db
+http://localhost/lost%20and%20found%20system/index.php
+
+Home page
+nav bar
+Strathmore bg on the left 
+colors include, red, blue, goldish orange. Strathmore logo colors.
+Strathmore logo on the top left of the nav bar 
+title at the center of the nav bar : Campus Lost & Found Portal
+report item link, login and signup options and search item search bar should be on the nav bar towards the right. 
+
+Body of the home page, is the posted items. 
+
+Users login
+users log in as either student, or staff or admin. They have two factor authentication so that people don't use their accounts for fake info being posted.
+
+Staff and Students will have pretty much same interfaces, just separate for convenience and Db management
+Admin will have a table w all posted items, 
+he can delete the found items, and post an item directly. 
+
+
+Report item page
+nav bar with home button 
+Forms to fill the details of the lost item include: Title, Description, location, category, whether lost or found, contact info. Submit button that notifies you it was successful or not. 
+
+Search item page
+has a search bar, and a drop down category/ filter for lost/found
